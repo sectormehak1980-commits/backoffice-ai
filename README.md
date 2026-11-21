@@ -7,7 +7,7 @@ BackOffice AI replaces fragmented WhatsApp chats, paper attendance registers, an
 ---
 
 ## Live Demo & Quick Access
-
+* **Live Application:** [https://backoffice-ai-six.vercel.app](https://backoffice-ai-six.vercel.app)
 * **Demo Tutor Account:** `priya@mehtatuition.in` / `demo1234` (or click **Explore Demo Workspace** on the welcome screen)
 * **Custom Workspace:** Sign up with any tuition centre name and email to initialize a clean local workspace
 
