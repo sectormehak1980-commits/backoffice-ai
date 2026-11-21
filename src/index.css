@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background-color: #F8FAFC; color: #0F172A; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+
+/* ---------- Dark theme (applied via html[data-theme="dark"], set by Header.jsx) ---------- */
+html[data-theme="dark"] body { background-color: #0b1120; color: #e2e8f0; }
+
+html[data-theme="dark"] .bg-white { background-color: #111827; color: #e2e8f0; }
+html[data-theme="dark"] .bg-slate-50 { background-color: #1e293b; }
+html[data-theme="dark"] .bg-slate-100 { background-color: #172033; }
+html[data-theme="dark"] .hover\:bg-slate-50:hover { background-color: #1e293b; }
+html[data-theme="dark"] .hover\:bg-slate-100:hover { background-color: #172033; }
+html[data-theme="dark"] .focus\:bg-white:focus { background-color: #111827; }
+
+html[data-theme="dark"] .text-slate-900 { color: #e2e8f0; }
+html[data-theme="dark"] .text-slate-800 { color: #e2e8f0; }
+html[data-theme="dark"] .text-slate-700 { color: #cbd5e1; }
+html[data-theme="dark"] .text-slate-600 { color: #cbd5e1; }
+html[data-theme="dark"] .text-slate-500 { color: #94a3b8; }
+html[data-theme="dark"] .text-slate-400 { color: #94a3b8; }
+
+html[data-theme="dark"] .border-slate-200 { border-color: #1f2937; }
+html[data-theme="dark"] .border-slate-100 { border-color: #243044; }
+html[data-theme="dark"] .divide-slate-100 > :not([hidden]) ~ :not([hidden]) { border-color: #243044; }
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] textarea { background-color: #172033; color: #e2e8f0; border-color: #1f2937; }
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder { color: #94a3b8; }
+html[data-theme="dark"] input:focus,
+html[data-theme="dark"] select:focus,
+html[data-theme="dark"] textarea:focus { background-color: #111827; }
+
+html[data-theme="dark"] thead,
+html[data-theme="dark"] thead th { background-color: #172033; color: #cbd5e1; }
+
+/* Recharts (chart SVG text, grid and tooltip) */
+html[data-theme="dark"] .recharts-cartesian-axis-tick-value,
+html[data-theme="dark"] .recharts-text { fill: #94a3b8; }
+html[data-theme="dark"] .recharts-cartesian-grid line { stroke: #243044; }
+html[data-theme="dark"] .recharts-default-tooltip {
+  background-color: #111827 !important;
+  border-color: #1f2937 !important;
+  color: #e2e8f0 !important;
+}
+html[data-theme="dark"] .recharts-default-tooltip .recharts-tooltip-label,
+html[data-theme="dark"] .recharts-default-tooltip .recharts-tooltip-item { color: #e2e8f0 !important; }
+
